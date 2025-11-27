@@ -7,7 +7,7 @@ import twilio from 'twilio';
 
 dotenv.config();
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 4000;
 const FRONTEND_ORIGIN = process.env.FRONTEND_ORIGIN || 'http://localhost:3000';
 const MONGO_URI = process.env.MONGO_URI;
 const DB_NAME = process.env.DB_NAME || 'aqua_bridge';
